@@ -63,51 +63,6 @@ const images = [
         description: 'Lighthouse Coast Sea',
       },
     ];
- 
-// const galleryEl = document.querySelector('.gallery');
-
-// const createImageCardTemplate = images.map(({original, preview, description}) => {
-//     return `
-//             <li class="gallery-item">
-//                 <a class="gallery-link" href="${original}">
-//                    <img
-//                        class="gallery-image"
-//                        src="${preview}"
-//                        data-source="${original}"
-//                        alt="${description}"
-//                 />
-//                  </a>
-//             </li>
-//     `;
-// });
-
-// const imageCardTemplate = createImageCardTemplate.join('');
-
-// galleryEl.insertAdjacentHTML('beforeend', imageCardTemplate);
-
-// galleryEl.addEventListener('click', event => {
-//     if (event.target === event.currentTarget) {
-//         return;
-//     }
-
-// const largeImg = e.target.dataset.source;
-// console.log(largeImg);
-
-// const modalInstance = basicLightbox.create(`
-//       <img src='${largeImg}' alt='Large image' />
-//     `, {
-//         closable: true,
-//         onShow() {
-//             console.log('Modal show!');
-//         },
-//         onClose() {
-//             console.log('Modal close');
-//         },
-//     });
-
-//     modalInstance.show();
-// });
-
 
 const galleryEl = document.querySelector('.gallery');
 
